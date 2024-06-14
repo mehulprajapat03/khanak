@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a{
+  font-family: 'Bellota';
+  
+  font-size: 18px;
+}
+
+body {
+  background-color: #b8b8ad;
+}
+
+.login{
+  font-size: 30px;
+  padding-bottom: .1px;
+  font-family: 'Belleza';
+  
+}
+
+.container {
+  position: absolute;
+  width: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 19.5rem;
+  height: 2rem;
+  padding: 5px;
+  background-color: #E1CEC0;
+  border: 1px solid #E1CEC0;
+  border-radius: 2rem;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.form-group ::-webkit-input-placeholder{
+  font-family: 'Montserrat Light';
+  font-size: 18px;
+}
+
+.form-group button {
+  width: 6.5rem;
+  height: 2.5rem;
+  padding: 10px;
+  margin: 5px;
+  background-color: #7f563b;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Canva Sans';
+  font-size: 16px;
+}
+
+.form-group button:hover {
+  background-color: #57280a;
+}
+
+.bglayer {
+  width: 61%;
+  height: 61%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, -50%);
+  background: #dbdbd1;
+  padding: 50px 60px 70px;
+  padding-bottom: 03%;
+  border-radius: 20px;
+}
+
+.image {
+  display: inline;
+  margin-right: .5cm;
+  
+}
+
+.sideimg {
+  height: 98%;
+  width: 47%;
+  border-radius: 20px;
+}
+
+.logo{
+  width: 65px;
+  height: 60px;
+  padding-bottom: 2%;
+  margin-top: 2%;
+}
+
+.bglayer2 {  
+  width: 350px;
+  height: 430px;
+  position: absolute;
+  background: #b08a72;
+  padding: 8px 45px;
+  text-align: center;
+  border-radius: 15px;
+  justify-content: right;
+  display: inline;
+  margin-left: .8cm;
+}
+
+#forgotPassword {
+  text-decoration: underline;
+  color: #000000;
+}
+
+#createAccount{
+  padding-right: px;
+  text-decoration: underline;
+  color: #000000;
+}
+
+hr.lgunder {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  border-color: rgb(0, 0, 0);
+}
+

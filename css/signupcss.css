@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 900px;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover; 
+    position: relative; 
+}
+.bglayer{
+    width: 100%;
+    max-width: 550px;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #dbdbd1;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+}  
+.form-box{
+    width: 100%;
+    max-width: 450px;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #a27c63;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 5%;
+}
+.line {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-color: black;
+}
+.form-box h1{
+    font-family: Belleza;
+    font-size: 35px;
+    color:#fff;
+    align-items: center;
+    margin-top: 10px;
+    /* margin-bottom: 40px; */
+    color: black;
+    position: relative;
+}
+
+.input-field{
+    background: #e1cec0;
+    margin: 15px 0;
+    border-radius: 3px;
+    display:flex;
+    width: 340px;
+    height: 40px;
+    align-items: center;
+    border-radius: 25px;
+    font-family: 'Montserrat Light';
+}
+
+input{
+    width: 90%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px 15px;
+    font-family: 'Montserrat Light';
+}
+
+.loginpage{
+    font-family: 'Bellota';
+    color: black;
+}
+
+.button{
+    width: 100%;
+    margin: auto;
+    background-color: #966d51;
+    width: 40%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'canva sans';
+    font-size: medium;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+
+}
